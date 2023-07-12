@@ -11,8 +11,6 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 -  Un état (en : state) est une variable qu'on utilise dans notre application (ou plus précisement dans le template !)
 - Dans la méthode "createApp", nous avons l'option 'data()' qui retourne un objet contenant des états.
 
-
-
 ## Comment monter l'application ?
 - Première méthode
 <script>
@@ -51,3 +49,8 @@ createApp({
 
     }
 }).mount("#app")
+
+
+## Les directives 
+- v-bind
+  Il est utilisé pour rendre dynamique tout attribut d'un élément

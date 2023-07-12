@@ -13,7 +13,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 ## Comment monter l'application ?
 - Première méthode
-
+```
 <script>
     const {createApp} = Vue ;
 
@@ -25,7 +25,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
         }
     }).mount("#app")
 </script>
-
+```
 - Deuxième méthode
 
 ```

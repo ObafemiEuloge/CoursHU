@@ -52,5 +52,6 @@ createApp({
 
 
 ## Les directives 
+    Une directive est un mot clé qui demande à VueJS d'exécuter une instruction donnée.
 - v-bind
-  Il est utilisé pour rendre dynamique tout attribut d'un élément
+``` Il est utilisé pour rendre dynamique tout attribut d'un élément.

@@ -5,10 +5,41 @@ VueJS est un framework JavaScript créé par Evan You un chinois de nationalité
 Trois manières d'installer Vue:
 En exportant ou en copiant le script fourni sur cdnjs.com
 
+## Clarification conceptuelle.
+
+- Vue utilise des modèles (template) semblables au HTML mais usage aussi des Etats
+-  Un état (en : state) est une variable qu'on utilise dans notre application (ou plus précisement dans le template !)
+- Dans la méthode "createApp", nous avons l'option 'data()' qui retourne un objet contenant des états.
+
+
+
 ## Comment monter l'application ?
-const {createApp} = Vue ;
+- Première méthode
+<script>
+    const {createApp} = Vue ;
+
+    createApp({
+        data(){
+            return {
+
+            }
+        }
+    }).mount("#app")
+</script>
+
+- Deuxième méthode
+
+<script type="module">
+    import {createApp} from "https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.esm-browser.min.js";
+</script>
+
 
 ## Monter l'application dans la div ...
 createApp({
-    
+    // list des options
+
+    data () {
+        // les états
+
+    }
 }).mount("#app")

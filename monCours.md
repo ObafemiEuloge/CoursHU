@@ -13,6 +13,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 ## Comment monter l'application ?
 - Première méthode
+
 <script>
     const {createApp} = Vue ;
 
@@ -27,7 +28,8 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 - Deuxième méthode
 
-<script type="module">
+```
+ <script type="module">
     import {createApp} from "https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.esm-browser.min.js";
 
     createApp({
@@ -39,8 +41,9 @@ En exportant ou en copiant le script fourni sur cdnjs.com
     }).mount("#app")
 </script>
 
-
+```
 ## Monter l'application dans la div ...
+```
 createApp({
     // list des options
 
@@ -49,9 +52,10 @@ createApp({
 
     }
 }).mount("#app")
+```
 
 
 ## Les directives 
-    Une directive est un mot clé qui demande à VueJS d'exécuter une instruction donnée.
+Une directive est un mot clé qui demande à VueJS d'exécuter une instruction donnée.
 - v-bind
-``` Il est utilisé pour rendre dynamique tout attribut d'un élément.
+Il est utilisé pour rendre dynamique tout attribut d'un élément

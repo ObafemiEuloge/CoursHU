@@ -62,7 +62,7 @@ Une directive est un mot clé qui demande à VueJS d'exécuter une instruction d
 Il est utilisé pour rendre dynamique tout attribut d'un élément.
 - v-on:event (il est remplacé par (@event))
 Il est utilisé pour mettre un événement sur un élément.
-Pour empêcher le rafraîchissement de la page, il faut mettre 
+Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preventDefault. Pour raccourcir, VueJS nous permet de le mettre sur l'attribut 'click' en faisant : ```@event.prevent```
 
 ## Les options
 Nous avons maintenant deux options:

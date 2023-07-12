@@ -29,7 +29,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 - Deuxième méthode
 
-new({
+
     <script type="module">
     import {createApp} from "https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.esm-browser.min.js";
 
@@ -41,7 +41,6 @@ new({
         }
     }).mount("#app")
  </script>
-})
 
 
 ## Monter l'application dans la div ...

@@ -67,3 +67,5 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
 ## Les options
 Nous avons maintenant deux options:
 - data() et methods()
+
+```event.target : Pour cibler un élément sur lequel on agit```

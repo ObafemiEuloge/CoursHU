@@ -10,6 +10,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 - Vue utilise des modèles (template) semblables au HTML mais usage aussi des Etats
 -  Un état (en : state) est une variable qu'on utilise dans notre application (ou plus précisement dans le template !)
 - Dans la méthode "createApp", nous avons l'option 'data()' qui retourne un objet contenant des états.
+- En VueJS, tous les états sont réactifs.
 
 ## Comment monter l'application ?
 - Première méthode
@@ -57,8 +58,11 @@ createApp({
 
 ## Les directives 
 Une directive est un mot clé qui demande à VueJS d'exécuter une instruction donnée.
-- v-bind
-Il est utilisé pour rendre dynamique tout attribut d'un élément
+- v-bind:attribut (il est remplacé par (:attribut))
+Il est utilisé pour rendre dynamique tout attribut d'un élément.
+- v-on:event (il est remplacé par (@event))
+Il est utilisé pour mettre un événement sur un élément.
+Pour empêcher le rafraîchissement de la page, il faut mettre 
 
 ## Les options
 Nous avons maintenant deux options:

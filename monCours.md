@@ -58,10 +58,12 @@ createApp({
 ```
 
 ## Les options
-Nous avons maintenant deux options:
-- data() et methods()
+Après avoir monté l'application, nous avons des options: 
+  - le ```data()``` qui est un option contenant une fonction retournant des objets contenant des états.
+  - le ```methods()``` qui est un option contenant des fonctions.
+  - le ```computed()``` qui est un option pour gérer les propriétés calculées.
 
-```event.target : Pour cibler un élément sur lequel on agit```
+
 
 
 
@@ -89,3 +91,4 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
   ```
 ## Les propriétés calculées 
 
+```event.target : Pour cibler un élément sur lequel on agit```

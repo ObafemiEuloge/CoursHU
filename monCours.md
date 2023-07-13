@@ -121,4 +121,8 @@ En Vue.js, il existe 2 principales options pour définir les fonctionnalités r�
   }
   ```
 
-```event.target : Pour cibler un élément sur lequel on agit```
+**NB**
+  - Quand on veut modifier un état, on appelle la fonction responsable de la modification dans l'option ```methods```.
+  - Quand on veut juste utiliser un état sans le modifier pour exécuter un calcul, il faut mettre la fonction responsable dans l'option ```computer```
+
+```event.target : Pour cibler un élément sur lequel on agit.```

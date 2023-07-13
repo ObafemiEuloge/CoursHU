@@ -108,7 +108,8 @@ En Vue.js, il existe 2 principales options pour définir les fonctionnalités r�
   ```
 
 - ```methods``` : utilisez ```methods``` lorsque vous souhaitez définir des méthodes réutilisables ou lorsque vous devez effectuer une action spécifique en réponse à un événement. Les méthodes ne sont pas mises en cache et recalculées chaque fois qu'elles sont appelées. Les appels HTTP ou exécuter des opérations complexes.
-
+  
+**Exemple**
 ```js
   methods: {
         handClick () {

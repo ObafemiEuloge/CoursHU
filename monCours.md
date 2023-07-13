@@ -11,7 +11,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 -  Un état (en : state) est une variable qu'on utilise dans notre application (ou plus précisement dans le template !)
 - Dans la méthode "createApp", nous avons l'option 'data()' qui retourne un objet contenant des états.
 - En VueJS, tous les états sont réactifs.
-- Moustache "```{{ }}```" : marqueur utilisé pour interpoller du texte.
+- Moustache "```{{ }}```" : marqueur utilisé pour interpoller des états. Il peut aussi contenir tout script Javascript valide
   Interpoller : insérer ou introduire du texte qui n'existait au préalable
 
 ## Comment monter l'application ?

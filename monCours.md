@@ -86,4 +86,6 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
   <ul>
       <li v-for="s in/of students">{{student.element1}} {{student.element2}}</li>
   </ul>
+  ```
+## Les propriétés calculées 
 

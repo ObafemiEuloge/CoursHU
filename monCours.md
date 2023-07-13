@@ -16,7 +16,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 ## Comment monter l'application ?
 - Première méthode
-```
+```js
 <script>
     const {createApp} = Vue ;
 
@@ -31,7 +31,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 ```
 - Deuxième méthode
 
-```
+```js
  <script type="module">
     import {createApp} from "https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.esm-browser.min.js";
 
@@ -46,7 +46,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
 
 ```
 ## Monter l'application dans la div ...
-```
+```js
 createApp({
     // list des options
 
@@ -77,7 +77,7 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
 - ```v-model``` : synchronise la valeur du champ associé à l'Etat (state) correspondant. Plus précisement, il est utilisé pour la gestion des formulaires. Il en existe plusieurs cas d'usage.
 - ```v-if, v-else-if, v-else```: Il est utilisé pour afficher ou cacher des éléments donnés remplissant une condition donnée.
 - ```v-for``` permet d'afficher une liste d'éléments basée sur un tableau
-  ```
+  ```js
   <tr v-for="student of/in students">
       <td>{{student.element1}}</td>
       <td>{{student.element2}}</td>
@@ -93,8 +93,10 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
 En Vue.js, il existe 2 principales options pour définir les fonctionnalités réactives : "computer" et "methods".
 
 - 1- ```computer``` : utilisez ```computer``` lorsque vous avez besoin de calculer une propriété basée sur les valeurs existantes des propriétés réactives (states | états). Les propriétés calculées (en : computed properties) sont mises en cache et ne son recalculés que lorsque leurs dépendance changent.
+
+  
 **Exemple**
-  ```
+  ```js
   computed: {
         fullname () {
             return this.firstname + ' ' + this.lastName;
@@ -107,7 +109,7 @@ En Vue.js, il existe 2 principales options pour définir les fonctionnalités r�
 
 - ```methods``` : utilisez ```methods``` lorsque vous souhaitez définir des méthodes réutilisables ou lorsque vous devez effectuer une action spécifique en réponse à un événement. Les méthodes ne sont pas mises en cache et recalculées chaque fois qu'elles sont appelées. Les appels HTTP ou exécuter des opérations complexes.
 
-```
+```js
   methods: {
         handClick () {
             return this.counter++;

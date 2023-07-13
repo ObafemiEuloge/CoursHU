@@ -75,4 +75,15 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
 - ```v-model``` : synchronise la valeur du champ associé à l'Etat (state) correspondant. Plus précisement, il est utilisé pour la gestion des formulaires. Il en existe plusieurs cas d'usage.
 - ```v-if, v-else-if, v-else```: Il est utilisé pour afficher ou cacher des éléments donnés remplissant une condition donnée.
 - ```v-for``` permet d'afficher une liste d'éléments basée sur un tableau
+  ```
+  <tr v-for="student of/in students">
+      <td>{{student.element1}}</td>
+      <td>{{student.element2}}</td>
+  </tr>
+
+  //////////////////////////
+
+  <ul>
+      <li v-for="s in/of students">{{student.element1}} {{student.element2}}</li>
+  </ul>
 

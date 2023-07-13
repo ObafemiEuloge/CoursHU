@@ -74,4 +74,5 @@ Il est utilisé pour mettre un événement sur un élément.
 Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preventDefault. Pour raccourcir, VueJS nous permet de le mettre sur l'attribut 'click' en faisant : ```@event.prevent```
 - ```v-model``` : synchronise la valeur du champ associé à l'Etat (state) correspondant. Plus précisement, il est utilisé pour la gestion des formulaires. Il en existe plusieurs cas d'usage.
 - ```v-if, v-else-if, v-else```: Il est utilisé pour afficher ou cacher des éléments donnés remplissant une condition donnée.
+- ```v-for``` permet d'afficher une liste d'éléments basée sur un tableau
 

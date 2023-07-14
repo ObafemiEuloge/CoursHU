@@ -133,4 +133,4 @@ Chaque application Vue passe par une série d'étapes d'initialisation lorsqu'el
 - compiler le template;
 - monter l'instance sur le DOM et
 -  mettre à jour lorsqueles données changent.
-En cours de route, des fonctions appelées **hooks** sont également exécutées, donnant la possibilité d'ajouter son propre code à des étapes spécifiques.
+En cours de route, des fonctions appelées ```**hooks**``` sont également exécutées, donnant la possibilité d'ajouter son propre code à des étapes spécifiques.

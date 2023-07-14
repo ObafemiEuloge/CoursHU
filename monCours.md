@@ -28,7 +28,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
         }
     }).mount("#app")
 </script>
-```
+``` 
 - Deuxième méthode
 
 ```js

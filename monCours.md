@@ -126,3 +126,11 @@ En Vue.js, il existe 2 principales options pour définir les fonctionnalités r�
   - Quand on veut juste utiliser un état sans le modifier pour exécuter un calcul, il faut mettre la fonction responsable dans l'option ```computer```
 
 ```event.target : Pour cibler un élément sur lequel on agit.```
+
+## Les hooks en Vue.JS
+Chaque application Vue passe par une série d'étapes d'initialisation lorsqu'elle est créée. Par exemple, il faut :
+- récupérer les états, fonctions et propriétés réactives de notre application;
+- compiler le template;
+- monter l'instance sur le DOM et
+-  mettre à jour lorsqueles données changent.
+En cours de route, des fonctions appelées **hooks** sont également exécutées, donnant la possibilité d'ajouter son propre code à des étapes spécifiques.

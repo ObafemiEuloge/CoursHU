@@ -134,3 +134,5 @@ Chaque application Vue passe par une série d'étapes d'initialisation lorsqu'el
 - monter l'instance sur le DOM et
 -  mettre à jour lorsqueles données changent.
 En cours de route, des fonctions appelées ```hooks``` sont également exécutées, donnant la possibilité d'ajouter son propre code à des étapes spécifiques.
+
+```$refs``` En Vue.JS, ```$refs``` est un objet qui récupère tous les éléments qui ont l'attribut ref.

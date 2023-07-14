@@ -92,7 +92,7 @@ Pour empêcher le rafraîchissement de la page, il faut mettre la méthode preve
 ## Les propriétés calculées
 En Vue.js, il existe 2 principales options pour définir les fonctionnalités réactives : "computer" et "methods".
 
-- 1- ```computer``` : utilisez ```computer``` lorsque vous avez besoin de calculer une propriété basée sur les valeurs existantes des propriétés réactives (states | états). Les propriétés calculées (en : computed properties) sont mises en cache et ne son recalculés que lorsque leurs dépendance changent.
+- 1- ```computed``` : utilisez ```computed``` lorsque vous avez besoin de calculer une propriété basée sur les valeurs existantes des propriétés réactives (states | états). Les propriétés calculées (en : computed properties) sont mises en cache et ne son recalculés que lorsque leurs dépendance changent.
 
   
 **Exemple**

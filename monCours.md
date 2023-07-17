@@ -62,6 +62,8 @@ Après avoir monté l'application, nous avons des options:
   - le ```data()``` qui est un option contenant une fonction retournant des objets contenant des états.
   - le ```methods()``` qui est un option contenant des fonctions.
   - le ```computed()``` qui est un option pour gérer les propriétés calculées.
+  - le ```watch()``` qui est un option pour observer un événement dans notre code.
+  - le ```components()``` qui est un option pour ajouter des composants dans notre code.
 
 
 
@@ -136,3 +138,7 @@ Chaque application Vue passe par une série d'étapes d'initialisation lorsqu'el
 En cours de route, des fonctions appelées ```hooks``` sont également exécutées, donnant la possibilité d'ajouter son propre code à des étapes spécifiques.
 
 En Vue.JS, ```$refs``` est un objet qui récupère tous les éléments qui ont l'attribut ref.
+
+
+### ANGULAR JS 
+

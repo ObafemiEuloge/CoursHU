@@ -167,4 +167,5 @@ Quelques rappels:
   - ```unknown```: représente un élément dont on ne connaît pas le type.
   - ```enum``` : rerpésente un ensemble de valeurs nommées.
   - ```tuple``` :représente un tableau avec un nombre fixe d'éléments fixe d'éléments de types différents.
+  - ```object``` : représente les objets. On crée des alias de type pour représenter les types d'objets. On peut également créer des alias de type pour les autres variables. Il existe aussi les ```interfaces``` pour écrire les types pour les objets. Et ce n'est relatif que pour les objets. 
   

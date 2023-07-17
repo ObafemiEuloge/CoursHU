@@ -153,8 +153,12 @@ Quelques rappels:
 
 - LES PRINCIPALES FONCTIONNALITES
   1- **Typage statique** TypeScript permet de définir des types pour les variables, les paramètres de fonction, les valeurs de retour et d'autres éléments du code. Cela permet de détecter les erreurs de typage lors de la phase de développement plutôt qu'à l'exécution, ce qui peut améliorer la fiabilité du code.
+  
   2- **Prise en charge des fonctionnalités ECMAScript récentes :**
+  
   3- **Outils de développement avancés :**
+  
   4- **Intégration avec JavaScript existant**
+  
   5- **Ecosystème et prise en charge :**
   

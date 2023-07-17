@@ -163,8 +163,8 @@ Quelques rappels:
   ```tsc init``` puis valider
   Un fichier de configuration est généré où il faut ajouter le chemin du fichier typescript et celui javascript qu'on veut générer.
 - **Les types de variables en TypeScript**
-  - any : représente un type non spécifique ou dynamique.
-  - unknown: représente un élément dont on ne connaît pas le type.
-  - enum : rerpésente un ensemble de valeurs nommées.
-  - tuple :représente un tableau avec un nombre fixe d'éléments fixe d'éléments de types différents.
+  - ```any``` : représente un type non spécifique ou dynamique.
+  - ```unknown```: représente un élément dont on ne connaît pas le type.
+  - ```enum``` : rerpésente un ensemble de valeurs nommées.
+  - ```tuple``` :représente un tableau avec un nombre fixe d'éléments fixe d'éléments de types différents.
   

@@ -157,4 +157,8 @@ Quelques rappels:
 - **Outils de développement avancés :**
 - **Intégration avec JavaScript existant**
 - **Ecosystème et prise en charge :**
+
+**Création d'un fichier de configuration**
+- Commande pour générer le fichier de configuration:
+  ```git init``` puis valider
   

@@ -162,7 +162,7 @@ Quelques rappels:
 - Commande pour générer le fichier de configuration:
   ```tsc init``` puis valider
   Un fichier de configuration est généré où il faut ajouter le chemin du fichier typescript et celui javascript qu'on veut générer.
-  **Les types de variables en TypeScript**
+- **Les types de variables en TypeScript**
   - any : représente un type non spécifique ou dynamique.
   - unknown: représente un élément dont on ne connaît pas le type.
   - enum : rerpésente un ensemble de valeurs nommées.

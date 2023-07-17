@@ -160,5 +160,5 @@ Quelques rappels:
 
 **Création d'un fichier de configuration**
 - Commande pour générer le fichier de configuration:
-  ```git init``` puis valider
+  ```tsc init``` puis valider
   

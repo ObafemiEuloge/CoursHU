@@ -145,3 +145,16 @@ Quelques rappels:
 
 **NPM** : (Node Package Manager) est un gestionnaire de paquets pour l'écosystème Node.js. Il est utilisé pour installer, mettre à jour et gérer les dépendances des projets Node.js. NPM permet aux développeurs de partager et de réutiliser des bibliothèques de code (appelées "paquets" ou "modules") développés par d'autres, ainsi que de publier leur propres paquets pour être utilisés par la communauté.
 **Les packages JSON** sont des fichiers JSON comportant des objets qui ne sont pas des objets car les propriétés sont des chaines de caractères.
+**Les versions des frameworks ou d'autres programmes** sont composés de trois versions : la version majeure, la version mineure et la version de patch
+**Les chapeaux devant les versions en JSON** sont utilisés pour imposer la version que l'on veut.
+
+# TYPESCRIPT
+**TypeScript** est un langage de programmation open source développé par Microsoft. Il est conçu comme un sur-ensemble typé de JavaScript; ce qui signifie que tout code JavaScript valide est également du code TypeScript valide. Cependant, TypeScript offre des fonctionnalités supplémentaires qui améliorent le développement et la maintenance des applications JavaScript à grande échelle. 
+
+- LES PRINCIPALES FONCTIONNALITES
+  1- **Typage statique** TypeScript permet de définir des types pour les variables, les paramètres de fonction, les valeurs de retour et d'autres éléments du code. Cela permet de détecter les erreurs de typage lors de la phase de développement plutôt qu'à l'exécution, ce qui peut améliorer la fiabilité du code.
+  2- **Prise en charge des fonctionnalités ECMAScript récentes :**
+  3- **Outils de développement avancés :**
+  4- **Intégration avec JavaScript existant**
+  5- **Ecosystème et prise en charge :**
+  

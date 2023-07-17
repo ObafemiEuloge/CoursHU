@@ -141,4 +141,5 @@ En Vue.JS, ```$refs``` est un objet qui récupère tous les éléments qui ont l
 
 
 ### ANGULAR JS 
-
+Quelques rappels: 
+**NPM** : Node Package Manager est un gestionnaire de paquets pour l'écosystème Node.js. Il est utilisé pour installer, mettre à jour et gérer les dépendances des projets Node.js. NPM permet aux développeurs de partager et de réutiliser des bibliothèques de code (appelées "paquets" ou "modules") développés par d'uatres, ainsi que de publier leur propres paquets pour être utilisés par la communauté.

@@ -5,7 +5,7 @@ VueJS est un framework JavaScript créé par Evan You un chinois de nationalité
 Trois manières d'installer Vue:
 En exportant ou en copiant le script fourni sur cdnjs.com
 
-## Clarification conceptuelle.
+## Clarification conceptuelle. 
 
 - Vue utilise des modèles (template) semblables au HTML mais usage aussi des Etats
 -  Un état (en : state) est une variable qu'on utilise dans notre application (ou plus précisement dans le template !)

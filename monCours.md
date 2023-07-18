@@ -197,3 +197,19 @@ Quelques rappels:
     }
   ```
 - Rendre une variable optionelle
+```js
+    type User = {
+      readonly id? : number, // id est optionnel (?). Il est en lecture seule (readonly).
+      fname: string,
+      lname: string,
+      age? : number, //age est optionel 
+    }
+
+    let u : User = {
+      id : ,
+      fname : "John",
+      lname : "Doe",
+      age : 98 
+    }
+```
+  

@@ -206,10 +206,33 @@ Quelques rappels:
     }
 
     let u : User = {
-      id : ,
+      id : 1,
       fname : "John",
       lname : "Doe",
       age : 98 
     }
+```
+
+- Les classes en TypeScript
+
+De nouveaux mots clés s'ajoutent en typeScript
+
+```public```: (défaut) permet l'accès à la propriété de partout
+```private``` : ne permet l'accès que dans la classe
+```protected```: permet l'accès dans la classe et dans les enfants de la classe.
+
+```js
+  class Person {
+    private fname : string; //propriété | membre | champs de la classe
+    private lname: string; //propriété | membre | champs de la classe
+
+    constructor(fname: string, lname: string){
+        this.fname = fname;
+        this.lname = lname;
+    }
+}
+
+const p1 = new Person("John", "Doe");
+console.log(p1);
 ```
   

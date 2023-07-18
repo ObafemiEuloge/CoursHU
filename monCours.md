@@ -223,16 +223,21 @@ De nouveaux mots clés s'ajoutent en typeScript
 
 ```js
   class Person {
-    private fname : string; //propriété | membre | champs de la classe
-    private lname: string; //propriété | membre | champs de la classe
-
-    constructor(fname: string, lname: string){
+    constructor(
+        private fname : string,
+        private lname: string,
+    ){
         this.fname = fname;
         this.lname = lname;
+    }
+
+    getfname(): string {
+        return this.fname;
     }
 }
 
 const p1 = new Person("John", "Doe");
+console.log(p1.getfname());
 console.log(p1);
 ```
   

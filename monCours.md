@@ -169,4 +169,31 @@ Quelques rappels:
   - ```tuple``` :représente un tableau avec un nombre fixe d'éléments fixe d'éléments de types différents.
   - ```object``` : représente les objets. On crée des ```alias de type``` pour représenter les types d'objets. On peut également créer des alias de type pour les autres variables. Il existe aussi les ```interfaces``` pour écrire les types pour les objets. Et ce n'est relatif que pour les objets. 
 - **Les unions de types**
-  Les unions de types notés ```` | ``` sont utilisées pour donner plusieurs types à une variable donnée. 
+  Les unions de types notés ``` | ``` sont utilisées pour donner plusieurs types à une variable donnée. 
+  ```js
+    let x : number | string | boolean | object ;
+    type Rectangle = {
+        x : number,
+        y : number
+    };
+
+     type Circle = {
+        cx : number,
+        cy : number,
+        cr : number,
+    }
+
+    let shape : Rectangle | Circle = {
+        x : value,
+        y : value,
+    }
+
+    type Shape = Rectangle | Circle;
+
+    let shape2 : Shape {
+        cx : value,
+        cy : value,
+        cr : value,
+    }
+  ```
+- Rendre une variable optionelle

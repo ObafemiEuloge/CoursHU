@@ -239,5 +239,15 @@ De nouveaux mots clés s'ajoutent en typeScript
 const p1 = new Person("John", "Doe");
 console.log(p1.getfname());
 console.log(p1);
+// Héritage en TypeScript
+class Programer extends Person {
+    constructor(
+        fname: string,
+        lname: string,
+        private languages: string[]
+    ) {
+        super(fname, lname);
+    }
+}
 ```
   

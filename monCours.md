@@ -251,6 +251,62 @@ class Programer extends Person {
 }
 ```
 
-- Les classes abstraites
-  **Une classe abstraite** est un concept de la POO. C'est une classe qui ne peut être instanciée directement, c'est-à-dire qu'on ne peut pas créer d'objets directement à partir de cette classe. Au lieu de cela, elle est conçue pour être utilisée comme une classe à partir de laquelle les autres peuvent hériter. 
+- **Les classes abstraites.**
+  **Une classe abstraite** est un concept de la POO. C'est une classe qui ne peut être instanciée directement, c'est-à-dire qu'on ne peut pas créer d'objets directement à partir de cette classe. Au lieu de cela, elle est conçue pour être utilisée comme une classe à partir de laquelle les autres peuvent hériter.
+
+  ```js
+  abstract class Forme {
+    afficher() {
+        console.log("Je suis une forme géométrique");
+    }
+  }
+
+
+  class Rectangle extends Forme {
+    constructor(
+        public longueur: number,
+        public largeur: number
+    ) {
+        super();
+    }
+
+    calculerSurface(): number {
+        return this.longueur * this.largeur;
+    }
+
+    
+  }
+
+  class Circle extends Forme {
+    constructor(
+        public rayon: number
+    ) {
+        super();
+    }
+
+    calculerSurface(): number {
+        return 2 * Math.PI * this.rayon ** 2;
+    }
+
+  }
+
+  class Triangle extends Forme {
+    constructor(
+        public base: number,
+        public hauteur: number
+    ) {
+        super();
+    }
+
+    calculerSurface(): number {
+        return 0.5 * this.base * this.hauteur;
+    }
+
+  }
+
+
+  let rect = new Rectangle(5, 2);
+  rect.afficher();
+  console.log(rect.calculerSurface());
+  ```
   

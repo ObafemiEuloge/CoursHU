@@ -313,4 +313,25 @@ class Programer extends Person {
   - Impossible à instancier
   - Méthodes abstraites : une classe abstraite peut déclarer des méthodes abstraites, c'est-à-dire des méthodes qui n'ont pas des corps (pas de code d'implémentation). Ces méthodes sont uniquement déclarées avec leur signature (nom et paramètres). La responsabilité d'implémenter ces méthodes incombe aux classes qui héritent de la classe abstraite.
   - Héritage : Les classes qui héritent d'une classe abstraite (appelées classes dérivées, sous-classes, enfant) doivent fournir une implémentation pour toutes les méthodes abstraites de la classe abstraite.
+ 
+- **CLASSES QUI IMPLEMENTE UNE INTERFACE**
+  En TypeScript, lorsqu'une classe implémente une interface, elle doit fournir implémentation pour toutes les propriétés et méthodes déclarées dans l'interface.
+  __Exemple__ :
+
+  ```js
+
+      interface MonInterface {
+        propriété : type;
+        méthode(): returnType;
+      }
+      class MaClasse implements MonInterface {
+        propriété : type;
+        constructuor(p: tpe){
+          this.propriété = p;
+        }
+
+        méthode(){
+          return returnValue;
+        }
+      }
   

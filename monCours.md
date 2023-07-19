@@ -250,4 +250,7 @@ class Programer extends Person {
     }
 }
 ```
+
+- Les classes abstraites
+  **Une classe abstraite** est un concept de la POO. C'est une classe qui ne peut être instanciée directement, c'est-à-dire qu'on ne peut pas créer d'objets directement à partir de cette classe. Au lieu de cela, elle est conçue pour être utilisée comme une classe à partir de laquelle les autres peuvent hériter. 
   

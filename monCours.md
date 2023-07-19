@@ -309,4 +309,8 @@ class Programer extends Person {
   rect.afficher();
   console.log(rect.calculerSurface());
   ```
+
+  - Impossible à instancier
+  - Méthodes abstraites : une classe abstraite peut déclarer des méthodes abstraites, c'est-à-dire des méthodes qui n'ont pas des corps (pas de code d'implémentation). Ces méthodes sont uniquement déclarées avec leur signature (nom et paramètres). La responsabilité d'implémenter ces méthodes incombe aux classes qui héritent de la classe abstraite.
+  - Héritage : Les classes qui héritent d'une classe abstraite (appelées classes dérivées, sous-classes, enfant) doivent fournir une implémentation pour toutes les méthodes abstraites de la classe abstraite.
   

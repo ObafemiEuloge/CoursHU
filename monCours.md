@@ -350,3 +350,6 @@ class Programer extends Person {
   ```
 
 **JSON : JavaScript Object Notation**
+
+- **LES DECORATEURS EN TYPESCRIPT**
+

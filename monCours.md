@@ -359,12 +359,13 @@ class Programer extends Person {
         -  ```enumerable``` : Il indique si la propriété sera listée lors du parcours de l'objet à l'aide de la boucle ```for...in``` 
         -  ```configurable``` : Il permet d'autoriser ou d'empêcher l'édition des éléments d'un objet.
 
-__Les décorateurs__
+__Les décorateurs__ 
+
 **NB :** Le décorateur ne s'applique que sur une classe ou dans une classe.
 
   - Cinq (05) endroits où on peut mettre les décorateurs.
-      - classe
-      - propriété
-      - méthode
-      - accesseur (getter et setter)
-      - paramètres d'une méthode
+      - classe (décorateur de classe)
+      - propriété (décorateur de propriété)
+      - méthode (décorateur de méthode)
+      - accesseur (getter et setter) (décorateur d'accesseur)
+      - paramètres d'une méthode (décorateur de paramètres de méthodes)

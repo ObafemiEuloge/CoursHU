@@ -364,8 +364,41 @@ __Les décorateurs__
 **NB :** Le décorateur ne s'applique que sur une classe ou dans une classe.
 
   - Cinq (05) endroits où on peut mettre les décorateurs.
-      - classe (décorateur de classe)
+      - classe (décorateur de classe) : s'applique au constructeur de la classe.
+        - **Exemple :** ``````
       - propriété (décorateur de propriété)
       - méthode (décorateur de méthode)
       - accesseur (getter et setter) (décorateur d'accesseur)
       - paramètres d'une méthode (décorateur de paramètres de méthodes)
+   
+```ts
+      function decorateur(target : any) {
+    console.log("MonDécorateur");
+}
+
+@decorateur
+class User {
+    @decorateur //appel du décorateur sur une propriété
+    private _fname : string ;
+    constructor(fname: string){
+        this._fname = fname
+    }
+    @decorateur //appel du décorateur sur méthode
+    greet(){
+        console.log("Salut ", this._fname)
+    }
+
+    @decorateur //appel du décorateur sur un accesseur
+    get fname() : string {
+        return this._fname
+    }
+    
+    @decorateur //appel du décorateur sur un accesseur
+    set fname(newValue : string) {
+        this._fname = newValue;
+    }
+    
+
+    
+}
+```

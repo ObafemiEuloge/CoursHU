@@ -337,3 +337,14 @@ class Programer extends Person {
 
 
 **NB :** Une classe qui a une méthode abstraite doit nécessairement être abstraite.
+
+
+  ```js
+    enum Delivery {
+      DoorToDoor = "doortodoor",
+      AirDelivery = "airdelivery",
+      Special = "special",
+    }
+
+    let x = Delivery.special : x est de type Delivery.
+  ```

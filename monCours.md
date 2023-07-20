@@ -44,7 +44,7 @@ En exportant ou en copiant le script fourni sur cdnjs.com
     }).mount("#app")
 </script>
 
-```
+``` 
 ## Monter l'application dans la div ...
 ```js
 createApp({

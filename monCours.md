@@ -353,4 +353,8 @@ class Programer extends Person {
 
 - **LES DECORATEURS EN TYPESCRIPT**
     - Les descripteurs en JavaScript
-      
+      Ils permettent d'accéder et/ou modifier les propriétés par défaut des éléments d'un objet.
+      Nous distinguons trois propriétés par défaut :
+        - ```writable``` : Il spécifie si la propriété peut être modifiée après sa création. Si ```writable``` est "false", la propriété en considérée comme en lecture seule.
+        -  ```enumerable``` : Il indique si la propriété sera listée lors du parcours de l'objet à l'aide de la boucle ```for...in``` 
+        -  ```configurable``` : Il permet d'autoriser ou d'empêcher l'édition des éléments d'un objet. 

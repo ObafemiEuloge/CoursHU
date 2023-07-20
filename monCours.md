@@ -334,4 +334,6 @@ class Programer extends Person {
           return returnValue;
         }
       }
-  
+
+
+**NB :** Une classe qui a une méthode abstraite doit nécessairement être abstraite.

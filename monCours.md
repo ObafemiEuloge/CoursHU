@@ -348,3 +348,5 @@ class Programer extends Person {
 
     let x = Delivery.special : x est de type Delivery.
   ```
+
+**JSON : JavaScript Object Notation**

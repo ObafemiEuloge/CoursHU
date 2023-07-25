@@ -406,4 +406,10 @@ class User {
 *
 ## Les services en Angular JS
   - **Un service** est une classe qui regroupe les propriétés partagées.
-  - **Les principes SOLID** sont un ensemble de cinq principes de conception de logiciels qui ont été popularisés par Martin C. Robert 
+  - **Les principes SOLID** sont un ensemble de cinq principes de conception de logiciels qui ont été popularisés par Martin C. Robert.
+    - Les principes SOLID sont :
+      1. Principe de Responsabilité Unique (Single Responsability Principle)
+      2. Principe d'Ouverture/Fermeture (Open/Close Principale)
+      3. Principe de Substitution de Liskov (Liskov Substitution principle)
+      4. Principe de Ségrégation d'Interfaces (Interface Segregation principle)
+      5. Principe de de Dépendance (Dependancy Inversion Principle)

@@ -402,3 +402,8 @@ class User {
     
 }
 ```
+
+*
+## Les services en Angular JS
+  - **Un service** est une classe qui regroupe les propriétés partagées.
+  - **Les principes SOLID** sont un ensemble de cinq principes de conception de logiciels qui ont été popularisés par Martin C. Robert 

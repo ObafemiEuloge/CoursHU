@@ -413,3 +413,11 @@ class User {
       3. Principe de Substitution de Liskov (Liskov Substitution principle)
       4. Principe de Ségrégation d'Interfaces (Interface Segregation principle)
       5. Principe de de Dépendance (Dependancy Inversion Principle)
+##  ngFor
+Lorsque nous utilisons la directive ```ngFor```, Angular crée un ensemble de variables pour chaque itération. Les variables créées sont : 
+
+- ```index ``` : variable qui stocke l'indice de l'élément actuel,
+- ```first ``` : variable booléenne qui indique si l'élément est le premier dans la liste.
+- ```last ``` : variable booléenne qui indique si l'élément est le dernier dans la liste.
+- ```even``` : variable booléen qui indique si l'indice de l'élément actuel est pair.
+- ```odd``` : variable qui indique si l'indice de l'élément actuel est impair.

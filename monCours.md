@@ -421,3 +421,6 @@ Lorsque nous utilisons la directive ```ngFor```, Angular crée un ensemble de va
 - ```last ``` : variable booléenne qui indique si l'élément est le dernier dans la liste.
 - ```even``` : variable booléen qui indique si l'indice de l'élément actuel est pair.
 - ```odd``` : variable qui indique si l'indice de l'élément actuel est impair.
+
+## Formulaires Angular JS
+  Un formulaire avec Angular se gère suivant deux approches: les réactifs (en : reactive forms) et les modèles (en : template-driven forms)

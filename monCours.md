@@ -424,3 +424,10 @@ Lorsque nous utilisons la directive ```ngFor```, Angular crée un ensemble de va
 
 ## Formulaires Angular JS
   Un formulaire avec Angular se gère suivant deux approches: les réactifs (en : reactive forms) et les modèles (en : template-driven forms)
+
+## Les routes
+La première pour définir les routes, sont les options:
+  * `Path` : Définit la route pour appeler un composant;
+  *  `component` : Définit le composant à charger si la route correspond;
+  *  `redirectTo` : Rédirige vers une route
+  *  `pathMatch` : définit si la route doit correpondre complètement ou partiellement (full / prefix)

@@ -431,3 +431,11 @@ La première pour définir les routes, sont les options:
   *  `component` : Définit le composant à charger si la route correspond;
   *  `redirectTo` : Rédirige vers une route
   *  `pathMatch` : définit si la route doit correpondre complètement ou partiellement (full / prefix)
+  *  
+
+
+  ## Observable / Oberserver
+
+* `Observable` : produit | objet | message qui sera diffusé
+* `Observer` : l'élément qui souscrit pour un produite | objet | message donné
+  

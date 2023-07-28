@@ -438,4 +438,6 @@ La première pour définir les routes, sont les options:
 
 * `Observable` : produit | objet | message qui sera diffusé
 * `Observer` : l'élément qui souscrit pour un produite | objet | message donné
-  
+* `RxJS` : Reactive eXtension JavaScript
+
+**Les observables sont comme des écouteurs d'événements, un moyen d'exécuter une fonction....**

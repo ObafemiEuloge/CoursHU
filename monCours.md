@@ -441,3 +441,7 @@ La première pour définir les routes, sont les options:
 * `RxJS` : Reactive eXtension JavaScript
 
 **Les observables sont comme des écouteurs d'événements, un moyen d'exécuter une fonction....**
+
+`Interval`: C'est une méthode créant un Observable qui renvoie périodiquement et continuellement un flux d'entier naturels (0, 1, 2)
+
+`mergeMap` est un opérateur de transoformation qui fusionne plusieurs observables en un seul flux continu

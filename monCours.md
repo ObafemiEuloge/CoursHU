@@ -445,3 +445,23 @@ La première pour définir les routes, sont les options:
 `Interval`: C'est une méthode créant un Observable qui renvoie périodiquement et continuellement un flux d'entier naturels (0, 1, 2)
 
 `mergeMap` est un opérateur de transoformation qui fusionne plusieurs observables en un seul flux continu
+
+
+
+## BASE DE DONNEES
+**SGBD :** Un **Système de Gestion de Base de Données** est un ensemble de logiciels, et composants interconnectés qui permettent de stocker, d'organiser, de géré et de manipuler des données de manière efficace et cohérente.
+
+`SGBD` ------------------> `SGBD Relationnels` 
+`SGBD` ------------------> `NoSQL`
+
+Les **SGBS Relationnels** et les **NoSQL** sont deux approches différentes pour la gestion et le stockage des données. Chacune de ces approches a ses propres avantages et inconvénients, et elles sont utilisées en fonction des besoins spécifiques d'une application. Voici une comparaison : 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Caractéristiques                 |                           SGBD Relationnel (SQL)                            |                    NoSQL                |
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Structure de données           | Les données sont stockées dans des tables avec des lignes
+                                    et des colones. Les données sont structurées et conforme 
+                                    à un schéma prédéfini.
+|
+|
+|
+|___________________________________________________________________________________________________________________________________________________________

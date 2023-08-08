@@ -454,14 +454,5 @@ La première pour définir les routes, sont les options:
 `SGBD` ------------------> `SGBD Relationnels` 
 `SGBD` ------------------> `NoSQL`
 
-Les **SGBS Relationnels** et les **NoSQL** sont deux approches différentes pour la gestion et le stockage des données. Chacune de ces approches a ses propres avantages et inconvénients, et elles sont utilisées en fonction des besoins spécifiques d'une application. Voici une comparaison : 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Caractéristiques                 |                           SGBD Relationnel (SQL)                            |                    NoSQL                |
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Structure de données           | Les données sont stockées dans des tables avec des lignes
-                                    et des colones. Les données sont structurées et conforme 
-                                    à un schéma prédéfini.
-|
-|
-|
-|___________________________________________________________________________________________________________________________________________________________
+
+**Extension Angular Formater**

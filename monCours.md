@@ -454,5 +454,11 @@ La première pour définir les routes, sont les options:
 `SGBD` ------------------> `SGBD Relationnels` 
 `SGBD` ------------------> `NoSQL`
 
+## LES TYPES DE REQUETES
+
+- `get` : récupérer une ressource
+- `post` : envoyer une ressource
+- `put` : mettre à jour une ressource
+
 
 **Extension Angular Formater**

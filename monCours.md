@@ -471,6 +471,6 @@ La première pour définir les routes, sont les options:
 Visité : `touched` | `untouched`: c'est quand on met un focus sur un champ donné. **touched** si le champ est rendu actif et **untouched** si rien n'est fait.
 Changé : `dirty` | `pristine` : c'est quand on écrit ou non un élément dans un champ de formulaire donné. **dirty** si le champ a été modifié et **pristine** si rien n'est mis dans le champ.
 Changé : `valid` | `invalid` : si une condition est mise sur un champ donné pour vérification de validation ou non.
-
+ 
 
   
